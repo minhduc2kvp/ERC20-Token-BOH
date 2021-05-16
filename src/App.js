@@ -5,7 +5,7 @@ import { useState, useEffect } from 'react';
 function App() {
   const Web3 = require('web3');
   const ERC20Token = require("./artifacts/contracts/BOH.sol/BOH.json");
-  const contractAddress = "0x2024152c92Cc1aa4417e4EF22151aa71C4FcfeBB";
+  const contractAddress = "";
   let web3, contract, accounts;
   const [symbol, setSymbol] = useState();
   const [total, setTotal] = useState();

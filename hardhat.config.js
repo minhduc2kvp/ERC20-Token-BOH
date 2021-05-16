@@ -16,13 +16,13 @@ task("accounts", "Prints the list of accounts", async () => {
 
 // Go to https://www.infura.io, sign up, create
 // a new App in its dashboard, and replace "KEY" with its key
-const INFURA_API_KEY = "3ef253809e6b44ce8069d95c12ec4668";
+const INFURA_API_KEY = "";
 
 // Replace this private key with your Ropsten account private key
 // To export your private key from Metamask, open Metamask and
 // go to Account Details > Export Private Key
 // Be aware of NEVER putting real Ether into testing accounts
-const ROPSTEN_PRIVATE_KEY = "d976c282768ea7efb117e3c384a0e15d4d6162e6d19b9ca72c0930b70f8b51dd";
+const ROPSTEN_PRIVATE_KEY = "";
 
 /**
  * @type import('hardhat/config').HardhatUserConfig
